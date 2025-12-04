@@ -1,0 +1,17 @@
+# Terraform Files to Ignore
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.hcl
+.crash
+*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+# OS Junk
+.DS_Store
+Thumbs.db
